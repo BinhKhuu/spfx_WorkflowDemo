@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "workflow-demo-field-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/workflowDemo/WorkflowDemoFieldCustomizer.js",
+          "manifest": "./src/extensions/workflowDemo/WorkflowDemoFieldCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WorkflowDemoFieldCustomizerStrings": "lib/extensions/workflowDemo/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

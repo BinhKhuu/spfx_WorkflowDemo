@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <Field ID="{94a3bb00-4291-4dd2-9913-02ccc53231f4}"
+            Name="Action"
+            DisplayName="Action"
+            Type="Number"
+            Min="0"
+            Required="FALSE"
+            Group="SPFx Columns"
+            ClientSideComponentId="37e6d4d2-c50f-4b15-bf68-73211fee4220">
+    </Field>
+</Elements>

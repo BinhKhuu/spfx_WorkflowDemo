@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.5.1",
+    "libraryName": "workflow-demo",
+    "libraryId": "7bb31bee-6592-48b3-9a1d-bae67440c304",
+    "packageManager": "npm",
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}
